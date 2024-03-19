@@ -152,3 +152,134 @@ if mods["Krastorio2"] then
         },
     })
 end
+
+if mods["exotic-industries-containers"] then
+    local mod_name = "Exotic Industries: Containers"
+    local order = "5"..mod_name.."-"
+    data:extend({
+        {
+            type = "int-setting",
+            name = "cramped-container-ei_1x1-container",
+            localised_name = {"",mod_name," - ",{"entity-name.ei_1x1-container"}},
+            localised_description = {"CrampedContainer.exotic-description"},
+            setting_type = "startup",
+            default_value = 48,
+            maximum_value = 48,
+            minimum_value = 1,
+            order = order.."a",
+        },
+        {
+            type = "int-setting",
+            name = "cramped-container-ei_2x2-container",
+            localised_name = {"",mod_name," - ",{"entity-name.ei_2x2-container"}},
+            localised_description = {"CrampedContainer.exotic-description"},
+            setting_type = "startup",
+            default_value = 200,
+            maximum_value = 200,
+            minimum_value = 1,
+            order = order.."b",
+        },
+        {
+            type = "int-setting",
+            name = "cramped-container-ei_6x6-container",
+            localised_name = {"",mod_name," - ",{"entity-name.ei_6x6-container"}},
+            localised_description = {"CrampedContainer.exotic-description"},
+            setting_type = "startup",
+            default_value = 1000,
+            maximum_value = 1000,
+            minimum_value = 1,
+            order = order.."c",
+        },
+    })
+end
+
+if mods["angelsindustries"] then
+    local mod_name = "Angel's Addons - Storage Options"
+    local order = "6"..mod_name.."-"
+    data:extend({
+        {
+            type = "int-setting",
+            name = "cramped-container-angels-big-chest",
+            localised_name = {"",mod_name," - ",{"entity-name.angels-big-chest"}},
+            setting_type = "startup",
+            default_value = 60,
+            maximum_value = 60,
+            minimum_value = 1,
+            order = order.."a",
+        },
+    })
+end
+if mods["angelsaddons-storage"] then
+    local mod_name = "Angel's Addons - Storage Options"
+    local order = "6"..mod_name.."-"
+    data:extend({
+        {
+            type = "int-setting",
+            name = "cramped-container-silo",
+            localised_name = {"",mod_name," - ",{"entity-name.silo"}},
+            setting_type = "startup",
+            default_value = 256,
+            maximum_value = 256,
+            minimum_value = 1,
+            order = order.."b",
+        },
+        {
+            type = "int-setting",
+            name = "cramped-container-angels-warehouse",
+            localised_name = {"",mod_name," - ",{"entity-name.angels-warehouse"}},
+            setting_type = "startup",
+            default_value = 768,
+            maximum_value = 768,
+            minimum_value = 1,
+            order = order.."c",
+        },
+    })
+end
+
+if mods["pyindustry"] then
+    local mod_name = "Pyanodons Industry"
+    local order = "7"..mod_name.."-"
+    data:extend({
+        {
+            type = "int-setting",
+            name = "cramped-container-py-shed-basic",
+            localised_name = {"",mod_name," - ",{"entity-name.py-shed-basic"}},
+            setting_type = "startup",
+            default_value = 75,
+            maximum_value = 75,
+            minimum_value = 1,
+            order = order.."a",
+        },
+        {
+            type = "int-setting",
+            name = "cramped-container-py-storehouse-basic",
+            localised_name = {"",mod_name," - ",{"entity-name.py-storehouse-basic"}},
+            setting_type = "startup",
+            default_value = 150,
+            maximum_value = 150,
+            minimum_value = 1,
+            order = order.."b",
+        },
+        {
+            type = "int-setting",
+            name = "cramped-container-py-warehouse-basic",
+            localised_name = {"",mod_name," - ",{"entity-name.py-warehouse-basic"}},
+            setting_type = "startup",
+            default_value = 450,
+            maximum_value = 450,
+            minimum_value = 1,
+            order = order.."c",
+        },
+        {
+            type = "int-setting",
+            name = "cramped-container-py-deposit-basic",
+            localised_name = {"",mod_name," - ",{"entity-name.py-deposit-basic"}},
+            setting_type = "startup",
+            default_value = 800,
+            maximum_value = 800,
+            minimum_value = 1,
+            order = order.."d",
+        },
+    })
+end
+

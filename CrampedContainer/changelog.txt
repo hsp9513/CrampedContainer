@@ -1,0 +1,28 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2024-03-20
+  Changes:
+    - Add supported mods
+  Supported mods:
+    - Exotic Industries: Containers
+    - Angel's Industries
+    - Angel's Addons - Storage Options
+    - Pyanodons Industry
+
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2022-11-11
+  Changes:
+    - First version
+  Supported mods:
+    - Base
+    - AAI Container
+    - Bob's Logistic
+    - Krastorio2
+    - Warehousing
+
+
+
+
+

@@ -170,7 +170,146 @@ if mods["Krastorio2"] then
         }
     })
 end
- 
+
+if mods["exotic-industries-containers"] then
+    set_slot("ei_1x1-container",{
+        container = {
+            "ei_1x1-container" ,
+        },
+        ["logistic-container"] = {
+            "ei_1x1-container_red"    ,
+            "ei_1x1-container_yellow" ,
+            "ei_1x1-container_blue"   ,
+            "ei_1x1-container_green"  ,
+            "ei_1x1-container_pink"   ,
+        }
+    })
+    set_slot("ei_2x2-container",{
+        container = {
+            "ei_2x2-container" ,
+        },
+        ["logistic-container"] = {
+            "ei_2x2-container_red"    ,
+            "ei_2x2-container_yellow" ,
+            "ei_2x2-container_blue"   ,
+            "ei_2x2-container_green"  ,
+            "ei_2x2-container_pink"   ,
+        }
+    })
+    set_slot("ei_6x6-container",{
+        container = {
+            "ei_6x6-container" ,
+        },
+        ["logistic-container"] = {
+            "ei_6x6-container_red"    ,
+            "ei_6x6-container_yellow" ,
+            "ei_6x6-container_blue"   ,
+            "ei_6x6-container_green"  ,
+            "ei_6x6-container_pink"   ,
+        }
+    })
+end
+
+if mods["angelsindustries"] then
+    set_slot("angels-big-chest",{
+        container = {
+            "angels-big-chest" ,
+        },
+        ["logistic-container"] = {
+            "angels-logistic-chest-active-provider"  ,
+            "angels-logistic-chest-passive-provider" ,
+            "angels-logistic-chest-storage"          ,
+            "angels-logistic-chest-buffer"           ,
+            "angels-logistic-chest-requester"        ,
+        }
+    })
+end
+
+if mods["angelsaddons-storage"] then
+    set_slot("silo",{
+        container = {
+            "silo" ,
+            "silo-coal" ,
+            "silo-ore1" ,
+            "silo-ore2" ,
+            "silo-ore3" ,
+            "silo-ore4" ,
+            "silo-ore5" ,
+            "silo-ore6" ,
+        },
+        ["logistic-container"] = {
+            "silo-active-provider"  ,
+            "silo-passive-provider" ,
+            "silo-storage"          ,
+            "silo-buffer"           ,
+            "silo-requester"        ,
+        }
+    })
+    set_slot("angels-warehouse",{
+        container = {
+            "angels-warehouse" ,
+        },
+        ["logistic-container"] = {
+            "angels-warehouse-active-provider"  ,
+            "angels-warehouse-passive-provider" ,
+            "angels-warehouse-storage"          ,
+            "angels-warehouse-buffer"           ,
+            "angels-warehouse-requester"        ,
+        }
+    })
+end
+
+if mods["pyindustry"] then
+    set_slot("py-shed-basic",{
+        container = {
+            "py-shed-basic" ,
+        },
+        ["logistic-container"] = {
+            "py-shed-active-provider"  ,
+            "py-shed-buffer"           ,
+            "py-shed-passive-provider" ,
+            "py-shed-requester"        ,
+            "py-shed-storage"          ,
+        }
+    })
+    set_slot("py-storehouse-basic",{
+        container = {
+            "py-storehouse-basic" ,
+        },
+        ["logistic-container"] = {
+            "py-storehouse-active-provider"  ,
+            "py-storehouse-buffer"           ,
+            "py-storehouse-passive-provider" ,
+            "py-storehouse-requester"        ,
+            "py-storehouse-storage"          ,
+        }
+    })
+    set_slot("py-warehouse-basic",{
+        container = {
+            "py-warehouse-basic" ,
+        },
+        ["logistic-container"] = {
+            "py-warehouse-active-provider"  ,
+            "py-warehouse-buffer"           ,
+            "py-warehouse-passive-provider" ,
+            "py-warehouse-requester"        ,
+            "py-warehouse-storage"          ,
+        }
+    })
+    set_slot("py-deposit-basic",{
+        container = {
+            "py-deposit-basic" ,
+        },
+        ["logistic-container"] = {
+            "py-deposit-active-provider"  ,
+            "py-deposit-buffer"           ,
+            "py-deposit-passive-provider" ,
+            "py-deposit-requester"        ,
+            "py-deposit-storage"          ,
+        }
+    })
+end
+
 if mods["boblogistics"] and mods["Krastorio2"]and data.raw["pump"]["pump"] then
     data.raw["pump"]["pump"].next_upgrade = nil
 end
