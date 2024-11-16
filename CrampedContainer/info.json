@@ -1,20 +1,20 @@
 {
     "name": "CrampedContainer",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "title": "Cramped Container",
     "author": "hsp9513",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "description": "This mod allows you to reduce the inventory size of various containers to a desired value. Inventory size can be adjusted in the mod settings and can be reduced but not increased. Reducing inventory size can help improve UPS.\nSupport mod: AAI Container, Bob's Logistic, Krastorio2, Warehousing, Exotic Industries: Containers, Angel's Industries, Angel's Addons - Storage Options, Pyanodons Industry",
     "dependencies": [
-        "base >= 1.1",
-        "? Warehousing >= 0.5.6",
+        "base >= 2.0",
+        "? Warehousing >= 1.0.1",
         "? boblogistics >= 1.1.3",
-        "? aai-containers >= 0.2.10",
+        "? aai-containers >= 0.3.1",
         "? Krastorio2  >= 1.2.25",
         "? exotic-industries-containers >= 0.0.5",
         "? angelsindustries >= 0.4.18",
         "? angelsaddons-storage >= 0.0.10",
-        "? pyindustry >= 2.0.13",
-        "? pyhardmode >= 1.0.12"
+        "? pyindustry >= 3.0.6",
+        "? pyhardmode >= 1.3.10"
     ]
  }

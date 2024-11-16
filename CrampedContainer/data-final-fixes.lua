@@ -34,11 +34,11 @@ if mods["base"] then
             "steel-chest" ,
         },
         ["logistic-container"] = {
-            "logistic-chest-active-provider"  ,
-            "logistic-chest-passive-provider" ,
-            "logistic-chest-storage"          ,
-            "logistic-chest-buffer"           ,
-            "logistic-chest-requester"        ,
+            "active-provider-chest"  ,
+            "passive-provider-chest" ,
+            "storage-chest"          ,
+            "buffer-chest"           ,
+            "requester-chest"        ,
         }
     })
 end
